@@ -25,17 +25,11 @@ export const ourFileRouter = {
       // This code RUNS ON YOUR SERVER after upload
       console.log("Upload complete for userId:", metadata.userId);
 
-      try {
-        await db.insert(images).values({
-          name: file.name,
-          url: file.url,
-          userId: metadata.userId,
-        });
-        console.log("File inserted into database successfully");
-      } catch (error) {
-        console.error("Failed to insert file into database:", error);
-        throw new UploadThingError("Database insertion failed");
-      }
+      await db.insert(images).values({
+        name: file.name,
+        url: file.url,
+        userId: metadata.userId,
+      });
 
       // !!! Whatever is returned here is sent to the clientside `onClientUploadComplete` callback
       return { uploadedBy: metadata.userId };
