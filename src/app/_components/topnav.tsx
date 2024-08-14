@@ -4,7 +4,7 @@ import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
 import { UploadButton } from "../utils/uploadthing";
 import { useRouter } from "next/navigation";
 
-export default function TopNav() {
+export function TopNav() {
   const router = useRouter();
   return (
     <nav className="flex w-full items-center justify-between border-b p-4 text-xl font-semibold">
