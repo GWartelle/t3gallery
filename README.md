@@ -12,7 +12,7 @@ This gallery app is built with the [T3](https://create.t3.gg/) stack, using [Typ
 - [x] Actually set up a database (w/ Vercel postgres)
 - [x] Attach database to UI
 - [x] Add authentication (w/ Clerk)
-- [ ] Add image upload
+- [x] Add image upload
 - [ ] "taint" (server-only)
 - [ ] Use Next/Image component
 - [ ] Error management (w/ Sentry)
