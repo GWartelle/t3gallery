@@ -13,8 +13,8 @@ This gallery app is built with the [T3](https://create.t3.gg/) stack, using [Typ
 - [x] Attach database to UI
 - [x] Add authentication (w/ Clerk)
 - [x] Add image upload
-- [ ] "taint" (server-only)
-- [ ] Use Next/Image component
+- [x] "taint" (server-only)
+- [x] Use Next/Image component
 - [ ] Error management (w/ Sentry)
 - [ ] Routing/image page (parallel route)
 - [ ] Delete button (w/ Server Actions)
