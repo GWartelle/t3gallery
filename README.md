@@ -18,7 +18,7 @@ This gallery app is built with the [T3](https://create.t3.gg/) stack, using [Typ
 - [x] Error management (w/ Sentry)
 - [x] Routing/image page (parallel route)
 - [x] Update upload button to be less cringe
-- [ ] ShadUIify (specifically toasts)
-- [ ] Delete button (w/ Server Actions)
+- [x] ShadUIify (specifically toasts)
 - [ ] Analytics (w/ Posthog)
+- [ ] Delete button (w/ Server Actions)
 - [ ] Ratelimiting (w/ Upstash)
