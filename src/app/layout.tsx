@@ -43,7 +43,13 @@ export default function RootLayout({
           </div>
           {modal}
           <div id="modal-root" />
-          <Toaster />
+          <Toaster
+            toastOptions={{
+              style: {
+                background: "#020617",
+              },
+            }}
+          />
         </body>
       </html>
     </ClerkProvider>

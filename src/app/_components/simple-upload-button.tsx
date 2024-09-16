@@ -74,7 +74,6 @@ export function SimpleUploadButton() {
   const router = useRouter();
   const { inputProps } = useUploadThingInputProps("imageUploader", {
     onUploadBegin() {
-        // toast.loading("Uploading...",
       toast(
         <div className="flex items-center gap-2 text-white">
           <LoadingSpinnerSVG />
