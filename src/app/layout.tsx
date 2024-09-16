@@ -46,7 +46,8 @@ export default function RootLayout({
           <Toaster
             toastOptions={{
               style: {
-                background: "#020617",
+                background: "#020817",
+                color: "white",
               },
             }}
           />
