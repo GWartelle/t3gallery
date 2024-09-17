@@ -30,10 +30,41 @@ async function Images() {
 
 export default async function HomePage() {
   return (
-    <main className="">
+    <main>
       <SignedOut>
-        <div className="h-full w-full p-10 text-center text-xl font-semibold">
-          Please sign in above
+        <div className="flex flex-col h-full w-full items-center justify-center gap-10 p-10">
+        <span className="text-center text-4xl font-semibold">
+            Please sign in above
+          </span>
+          <figure className="flex flex-col items-start">
+            <Image
+              src="/album_sharing_illustration.jpg"
+              alt="Album sharing illustration"
+              width={384}
+              height={384}
+              className="rounded-2xl"
+            />
+            <figcaption className="italic text-sm">
+              Image by{" "}
+              <a
+                href="https://www.freepik.com/author/vectorjuice"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline"
+              >
+                vectorjuice
+              </a>{" "}
+              on{" "}
+              <a
+                href="https://www.freepik.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline"
+              >
+                Freepik
+              </a>
+            </figcaption>
+          </figure>
         </div>
       </SignedOut>
       <SignedIn>
