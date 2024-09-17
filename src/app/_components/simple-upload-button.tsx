@@ -103,7 +103,11 @@ export function SimpleUploadButton() {
 
   return (
     <div>
-      <label htmlFor="upload-button" className="cursor-pointer">
+      <label
+        htmlFor="upload-button"
+        className="cursor-pointer"
+        title="Max 8MB, up to 10 files"
+      >
         <UploadSVG />
       </label>
       <input
