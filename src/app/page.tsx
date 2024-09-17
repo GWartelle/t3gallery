@@ -11,7 +11,7 @@ async function Images() {
   return (
     <div className="flex flex-wrap justify-center gap-4 p-4">
       {images.map((image) => (
-        <div key={image.id} className="flex w-48 justify-end flex-col">
+        <div key={image.id} className="flex w-48 flex-col justify-end">
           <Link href={`/img/${image.id}`}>
             <Image
               src={image.url}
@@ -32,7 +32,7 @@ export default async function HomePage() {
   return (
     <main className="">
       <SignedOut>
-        <div className="h-full w-full text-center text-2xl">
+        <div className="h-full w-full p-10 text-center text-2xl font-semibold">
           Please sign in above
         </div>
       </SignedOut>
