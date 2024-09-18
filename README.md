@@ -80,6 +80,7 @@ This project is deployed on [Vercel](https://vercel.com/).
 
 - Tools :
 
+[![Vercel](https://img.shields.io/badge/Vercel-0A0A0A?style=for-the-badge&logo=vercel&logoColor=FFF)](https://vercel.com/)
 [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=FFF)](https://tailwindcss.com/)
 [![ShadcnUI](https://img.shields.io/badge/ShadcnUI-000?style=for-the-badge&logo=shadcnui&logoColor=FFF)](https://ui.shadcn.com/)
 [![Clerk](https://img.shields.io/badge/Clerk-654BF6?style=for-the-badge&logo=clerk&logoColor=FFF)](https://clerk.com/)
